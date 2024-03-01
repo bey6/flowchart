@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2024-02-28T02:41:23.194Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0" etag="3MO_0FhmzGW9MNLJLbFu" version="23.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-01T00:59:46.165Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0" etag="iaBHdl4iI92qdaC2w8jw" version="23.1.7" type="github">
   <diagram name="Page-1" id="Fjpr4b5BkvFu_0f-MGYj">
-    <mxGraphModel dx="939" dy="702" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="846" dy="521" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="lUS5qcKUH6nwqDj8LA5h-1" value="结束" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.start;shadow=1;fontFamily=LXGW WenKai;" vertex="1" parent="1">
-          <mxGeometry x="140" y="630" width="80" height="30" as="geometry" />
+          <mxGeometry x="140" y="790" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="lUS5qcKUH6nwqDj8LA5h-2" value="开始" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.start;shadow=1;fontFamily=LXGW WenKai;" vertex="1" parent="1">
           <mxGeometry x="140" y="70" width="80" height="30" as="geometry" />
@@ -31,12 +31,12 @@
         <mxCell id="lUS5qcKUH6nwqDj8LA5h-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=-15;entryPerimeter=0;" edge="1" parent="1" source="lUS5qcKUH6nwqDj8LA5h-8" target="lUS5qcKUH6nwqDj8LA5h-1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="365" y="590" />
-              <mxPoint x="180" y="590" />
+              <mxPoint x="365" y="770" />
+              <mxPoint x="180" y="770" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="lUS5qcKUH6nwqDj8LA5h-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lUS5qcKUH6nwqDj8LA5h-11" target="lUS5qcKUH6nwqDj8LA5h-13">
+        <mxCell id="lUS5qcKUH6nwqDj8LA5h-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lUS5qcKUH6nwqDj8LA5h-11" target="lUS5qcKUH6nwqDj8LA5h-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lUS5qcKUH6nwqDj8LA5h-11" value="将个人信息带入" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;fontFamily=LXGW WenKai;" vertex="1" parent="1">
@@ -49,7 +49,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lUS5qcKUH6nwqDj8LA5h-13" value="提交审核" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;fontFamily=LXGW WenKai;" vertex="1" parent="1">
-          <mxGeometry x="120" y="500" width="120" height="60" as="geometry" />
+          <mxGeometry x="120" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lUS5qcKUH6nwqDj8LA5h-18" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lUS5qcKUH6nwqDj8LA5h-16" target="lUS5qcKUH6nwqDj8LA5h-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lUS5qcKUH6nwqDj8LA5h-19" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="lUS5qcKUH6nwqDj8LA5h-16" target="lUS5qcKUH6nwqDj8LA5h-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lUS5qcKUH6nwqDj8LA5h-16" value="身份证存在？" style="rhombus;whiteSpace=wrap;html=1;fontFamily=LXGW WenKai;shadow=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="510.0000000000001" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
